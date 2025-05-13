@@ -20,7 +20,7 @@ fun main(){
             while(a==0.0){
                 print("El numero dado para A es invalido, ingrese un valor valido" +
                         "\nA= ")
-                var a = readln().toDouble()
+                a = readln().toDouble()
             }
         }else if(d<0){
             while(d<0) {
@@ -28,7 +28,7 @@ fun main(){
                     "El numero dado para B es invalido, ingrese un valor valido" +
                             "\nB= "
                 )
-                var b = readln().toDouble()
+                b = readln().toDouble()
             }
         }
         var r1 = (-b + sqrt(d))/(2*a)
